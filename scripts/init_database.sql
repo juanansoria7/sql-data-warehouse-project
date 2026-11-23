@@ -1,15 +1,15 @@
-DROP DATABASE IF EXISTS bronze;
+DROP DATABASE IF EXISTS datawarehouse;
+CREATE DATABASE datawarehouse;
+USE datawarehouse;
 
-USE datawherehouse;
-
-CREATE TABLE IF NOT EXISTS bronze (
+CREATE TABLE bronze (
     id INT PRIMARY KEY
 );
 
-CREATE TABLE IF NOT EXISTS silver (
+CREATE TABLE silver (
     id INT PRIMARY KEY
 );
 
-CREATE TABLE IF NOT EXISTS gold (
+CREATE TABLE gold (
     cliente_id INT PRIMARY KEY
 );
