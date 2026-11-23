@@ -6,8 +6,7 @@ Reinicio del Data Warehouse en MySQL
 Propósito
     Crea la base de datos `datawarehouse`. Si ya existe, la
     elimina y la vuelve a crear. A continuación, crea las
-    tablas `bronze`, `silver` y `gold`, y verifica su creación
-    con SHOW TABLES.
+    tablas `bronze`, `silver` y `gold`
 
 Advertencia
     Si `datawarehouse` ya existe, se eliminarán todas sus
