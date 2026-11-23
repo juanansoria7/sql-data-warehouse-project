@@ -32,3 +32,15 @@ Desarrollar análisis basados en SQL que den información detallada sobre:
 Con estos análisis, los responsables del negocio disponen de las métricas clave para tomar decisiones estratégicas.
 
 ---
+
+## Licencia
+
+Este proyecto se distribuye bajo la [licencia MIT](LICENSE). Puedes usarlo, modificarlo y compartirlo siempre que cites su origen.
+
+## Sobre mí
+
+Soy Juan Ángel Soria Molina (Juanan), IT Business Analyst en Alicante. Vengo del desarrollo de software y trabajo con datos, BI y automatización: SQL, Python, ETL y Power BI. Ahora estudio Ingeniería Informática en la UOC.
+
+He hecho este proyecto para practicar ingeniería de datos, siguiendo el curso *SQL Data Warehouse from Scratch* de [Data With Baraa](https://www.youtube.com/@DataWithBaraa).
+
+[LinkedIn](https://www.linkedin.com/in/juan-angel-soria-molina/)
