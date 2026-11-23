@@ -1,31 +1,25 @@
 /*
 ============================================================
-Reinicio del Data Warehouse en MySQL
+Creación de las capas del data warehouse (MySQL)
 ============================================================
 
 Propósito
-    Crea la base de datos `datawarehouse`. Si ya existe, la
-    elimina y la vuelve a crear. A continuación, crea las
-    tablas `bronze`, `silver` y `gold`
+    Crea una base de datos por capa: bronze, silver y gold.
+    En MySQL, base de datos y esquema son lo mismo, así que
+    cada una hace el papel de los esquemas del curso
+    (SQL Server).
 
 Advertencia
-    Si `datawarehouse` ya existe, se eliminarán todas sus
-    tablas y datos. Haz una copia de seguridad antes de
-    ejecutar el script si necesitas conservarlos.
+    Si alguna ya existe, se borra con todas sus tablas y
+    datos. Haz una copia antes si necesitas conservarlos.
 */
 
-DROP DATABASE IF EXISTS datawarehouse;
-CREATE DATABASE datawarehouse;
-USE datawarehouse;
+DROP DATABASE IF EXISTS datawarehouse;  -- quita la versión anterior
 
-CREATE TABLE bronze (
-    id INT PRIMARY KEY
-);
+DROP DATABASE IF EXISTS bronze;
+DROP DATABASE IF EXISTS silver;
+DROP DATABASE IF EXISTS gold;
 
-CREATE TABLE silver (
-    id INT PRIMARY KEY
-);
-
-CREATE TABLE gold (
-    cliente_id INT PRIMARY KEY
-);
+CREATE DATABASE bronze;
+CREATE DATABASE silver;
+CREATE DATABASE gold;
